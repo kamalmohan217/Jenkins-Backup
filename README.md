@@ -69,6 +69,7 @@ For periodic backup, installation of Jenkins plugin Periodic Backup has been don
 ![image](https://github.com/user-attachments/assets/39c49c0c-6676-419b-a1fb-cb1fe28b34d6)
 
 **Backup Location**
+
 (a) Amazon S3
 
 (b) LocalDirectory
