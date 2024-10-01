@@ -51,3 +51,7 @@ Restart the Jenkins
 ![image](https://github.com/user-attachments/assets/91d8985e-44f9-4173-9a0c-0cfab093d15f)
 
 ![image](https://github.com/user-attachments/assets/0e71613a-1e1d-453e-9e26-2fb0c8aaba57)
+
+Same number of Builds are also present as it was earlier.
+
+![image](https://github.com/user-attachments/assets/22270bdd-c21d-4957-9eb3-f1c7ede6e3cf)
