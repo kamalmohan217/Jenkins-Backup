@@ -116,3 +116,5 @@ Now for Restoration of backup follow the steps as written below.
 Finally you will find the same jenkins job test-1 as shown in the screenshot attached below.
 
 ![image](https://github.com/user-attachments/assets/11cfbb08-c387-4209-aaf3-65b2f655ef33)
+
+**(b) LocalDirectory**
