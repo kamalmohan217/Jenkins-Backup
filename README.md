@@ -61,3 +61,54 @@ Same number of Builds are also present as it was earlier.
 For periodic backup, installation of Jenkins plugin Periodic Backup has been done as shown in the screenshot attached below.
 
 ![image](https://github.com/user-attachments/assets/13815d6c-b57b-47f9-a8e0-d28bf4c986cd)
+
+### 2. Periodic Backup
+
+For periodic backup, installation of Jenkins plugin Periodic Backup has been done as shown in the screenshot attached below.
+
+![image](https://github.com/user-attachments/assets/39c49c0c-6676-419b-a1fb-cb1fe28b34d6)
+
+**Backup Location**
+(a) Amazon S3
+
+(b) LocalDirectory
+
+**(a) Amazon S3**
+
+create a temporary directory and change its ownership as shown in the screenshot attached below.
+
+![image](https://github.com/user-attachments/assets/57f1b20b-f044-4987-b753-0a61a7876261)
+
+Create an Amazon S3 Bucket as shown in the screenshot attached below.
+
+![image](https://github.com/user-attachments/assets/076130cb-ae95-4ff8-a398-cc1ba52cd851)
+
+Create a An IAM User with Access Key and Secret Key and which has sufficient privileges to access S3 bucket.
+
+Do the configuration for Periodic backup with backup location as Amazon S3 as shown in the screenshot attached below.
+
+![image](https://github.com/user-attachments/assets/85047883-b09d-42b5-908f-f93cbf6994a6)
+![image](https://github.com/user-attachments/assets/a6bd557a-47da-4b12-a94f-9dbb018d39cb)
+![image](https://github.com/user-attachments/assets/e5b86b49-862e-469b-9f9f-4bbdeb2c0acf)
+![image](https://github.com/user-attachments/assets/659dddb8-7faf-434b-bd03-94ac09ecaeec)
+
+After the cron job run as per the scheduled time as shown in the screenshot attached above the backup will be availabe in the S3 bucket as shown in the screenshot attached below.
+
+![image](https://github.com/user-attachments/assets/ad10a22a-2a39-460d-8955-47b8d656a83b)
+![image](https://github.com/user-attachments/assets/2ff07004-b2a3-4ba5-926b-7af4242b7d98)
+
+Before taking the backup there was a jenkins job with the name of test-1 was present but after backup I deleted the test-1 jenkins job as shown in the below screenshots.
+
+![image](https://github.com/user-attachments/assets/b6eb0b3a-504c-4ea2-a0a0-5abf84caa831)
+![image](https://github.com/user-attachments/assets/42a8558f-c051-4717-acc4-e19ab55fad34)
+
+Now for Restoration of backup follow the steps as written below.
+
+![image](https://github.com/user-attachments/assets/5966dc61-cdd5-4b1a-90d3-6f5c9934ec58)
+![image](https://github.com/user-attachments/assets/903c5038-1c1a-464c-b7f2-c63fec8fce4d)
+![image](https://github.com/user-attachments/assets/6168d238-6191-45f1-8173-068fccea1f6f)
+![image](https://github.com/user-attachments/assets/98f66f8b-7ead-4295-96ef-2668e0fa7e7f)
+
+Finally you will find the same jenkins job test-1 as shown in the screenshot attached below.
+
+![image](https://github.com/user-attachments/assets/11cfbb08-c387-4209-aaf3-65b2f655ef33)
