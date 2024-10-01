@@ -106,6 +106,7 @@ Before taking the backup there was a jenkins job with the name of test-1 was pre
 
 Now for Restoration of backup follow the steps as written below.
 
+![image](https://github.com/user-attachments/assets/93f63bd7-42f9-4fab-b601-e9d4a48b51c9)
 ![image](https://github.com/user-attachments/assets/5966dc61-cdd5-4b1a-90d3-6f5c9934ec58)
 ![image](https://github.com/user-attachments/assets/903c5038-1c1a-464c-b7f2-c63fec8fce4d)
 ![image](https://github.com/user-attachments/assets/6168d238-6191-45f1-8173-068fccea1f6f)
