@@ -55,3 +55,9 @@ Restart the Jenkins
 Same number of Builds are also present as it was earlier.
 
 ![image](https://github.com/user-attachments/assets/22270bdd-c21d-4957-9eb3-f1c7ede6e3cf)
+
+### 2. Periodic Backup
+
+For periodic backup, installation of Jenkins plugin Periodic Backup has been done as shown in the screenshot attached below.
+
+![image](https://github.com/user-attachments/assets/13815d6c-b57b-47f9-a8e0-d28bf4c986cd)
