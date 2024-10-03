@@ -93,7 +93,7 @@ Do the configuration for Periodic backup with backup location as Amazon S3 as sh
 ![image](https://github.com/user-attachments/assets/e5b86b49-862e-469b-9f9f-4bbdeb2c0acf)
 ![image](https://github.com/user-attachments/assets/659dddb8-7faf-434b-bd03-94ac09ecaeec)
 
-Backup is scheduled at 11:00 AM UTC daily as shown in the screenshot attached below. Daily one backup and total 30 backups will be stored, backup older than 30 days will be discarded.
+Backup is scheduled at 10:23 AM UTC daily as shown in the screenshot attached below. Daily one backup and total 30 backups will be stored, backup older than 30 days will be discarded.
 
 After the cron job run as per the scheduled time as shown in the screenshot attached above the backup will be availabe in the S3 bucket as shown in the screenshot attached below.
 
