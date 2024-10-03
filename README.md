@@ -130,9 +130,11 @@ To configure periodic backup in Jenkins do the configuration in Jenkins after in
 
 ![image](https://github.com/user-attachments/assets/fe126d2a-9405-44a8-a0d9-1924c15a6197)
 
-Before proceeding further my first Aim is to create the temporary directory /var/lib/jenkins/tmp, backup directory /opt/jenkins-backup and change it's ownership as shown in the screenshot attached below.
+Before proceeding further my first Aim is to create the temporary directory /opt/mederma, backup directory /opt/jenkins-backup and change it's ownership as shown in the screenshot attached below.
 
-![image](https://github.com/user-attachments/assets/47e883af-a706-4ace-96ad-7b12d8a7aa47)
+![image](https://github.com/user-attachments/assets/54a8e8c6-ef99-4f21-92c1-69cbd3c44931)
+![image](https://github.com/user-attachments/assets/72d7d709-3959-467f-afd6-feca12305dbb)
+![image](https://github.com/user-attachments/assets/8826fdf2-108b-44fe-93b1-796138cbe68d)
 
 Configuration for Periodic Backup Manager is as shown in the screenshot attached below.
 
