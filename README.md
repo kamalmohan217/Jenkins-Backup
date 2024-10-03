@@ -78,7 +78,7 @@ For periodic backup, installation of Jenkins plugin Periodic Backup has been don
 
 create a temporary directory and change its ownership as shown in the screenshot attached below.
 
-![image](https://github.com/user-attachments/assets/83ba56e0-6051-4bf6-9801-9b2624814ba3)
+![image](https://github.com/user-attachments/assets/3ec0954a-72f9-49b9-813b-e5519eb723f1)
 
 Create an Amazon S3 Bucket as shown in the screenshot attached below.
 
@@ -98,7 +98,7 @@ Backup is scheduled at 11:00 AM UTC daily as shown in the screenshot attached be
 After the cron job run as per the scheduled time as shown in the screenshot attached above the backup will be availabe in the S3 bucket as shown in the screenshot attached below.
 
 ![image](https://github.com/user-attachments/assets/ad10a22a-2a39-460d-8955-47b8d656a83b)
-![image](https://github.com/user-attachments/assets/2ff07004-b2a3-4ba5-926b-7af4242b7d98)
+![image](https://github.com/user-attachments/assets/d668947b-5704-47e5-9163-21359f6eb968)
 
 Before taking the backup there was a jenkins job with the name of test-1 was present but after backup I deleted the test-1 jenkins job as shown in the below screenshots.
 
@@ -107,11 +107,14 @@ Before taking the backup there was a jenkins job with the name of test-1 was pre
 
 Now for Restoration of backup follow the steps as written below.
 
-![image](https://github.com/user-attachments/assets/93f63bd7-42f9-4fab-b601-e9d4a48b51c9)
-![image](https://github.com/user-attachments/assets/5966dc61-cdd5-4b1a-90d3-6f5c9934ec58)
-![image](https://github.com/user-attachments/assets/903c5038-1c1a-464c-b7f2-c63fec8fce4d)
-![image](https://github.com/user-attachments/assets/6168d238-6191-45f1-8173-068fccea1f6f)
-![image](https://github.com/user-attachments/assets/98f66f8b-7ead-4295-96ef-2668e0fa7e7f)
+Go to **Manage Jenkins** > **Periodic Backup Manager** and restore as shown in the screenshot attached below.
+
+![image](https://github.com/user-attachments/assets/4596a74f-1050-4b2b-b626-7a92535f00b4)
+
+Checked the log and got verified that restoration has benn done.
+
+![image](https://github.com/user-attachments/assets/b9df5cbd-7ef6-46f8-ba20-92821fef0118)
+![image](https://github.com/user-attachments/assets/038b88c7-5d8a-41cd-afe4-61468856fa16)
 
 Finally you will find the same jenkins job test-1 as shown in the screenshot attached below.
 
