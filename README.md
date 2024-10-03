@@ -118,3 +118,11 @@ Finally you will find the same jenkins job test-1 as shown in the screenshot att
 ![image](https://github.com/user-attachments/assets/11cfbb08-c387-4209-aaf3-65b2f655ef33)
 
 **(b) LocalDirectory**
+
+Install the plugin for periodic backup as shown in the screenshot attached below.
+
+![image](https://github.com/user-attachments/assets/16f8aebd-82cb-44b4-849e-1a20bbd0a27c)
+
+To configure periodic backup in Jenkins do the configuration in Jenkins after installation of periodic backup plugin as shown in the screenshot attached below.
+
+![image](https://github.com/user-attachments/assets/fe126d2a-9405-44a8-a0d9-1924c15a6197)
