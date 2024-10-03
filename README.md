@@ -147,7 +147,7 @@ Backup has been created at 06:05 AM UTC as shown in the screenshot attached belo
 ![image](https://github.com/user-attachments/assets/f7d973f8-73a3-4814-b397-943be411abde)
 ![image](https://github.com/user-attachments/assets/423e20a7-cdd5-43c4-8a55-1ee3826e9d48)
 
-Befor running the Backup there was one Jenkins Job with the name test-1 and five builds as shown in the screenshot attached below.
+Before running the Backup there was one Jenkins Job with the name test-1 and five builds as shown in the screenshot attached below.
 
 ![image](https://github.com/user-attachments/assets/efffb36e-4fe0-4dc1-a7fb-374388343b30)
 ![image](https://github.com/user-attachments/assets/85294adc-c7f4-418b-9c6a-32c3566fd2d5)
