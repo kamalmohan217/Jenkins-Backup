@@ -88,7 +88,7 @@ Create a An IAM User with Access Key and Secret Key and which has sufficient pri
 
 Do the configuration for Periodic backup with backup location as Amazon S3 as shown in the screenshot attached below.
 
-![image](https://github.com/user-attachments/assets/85047883-b09d-42b5-908f-f93cbf6994a6)
+![image](https://github.com/user-attachments/assets/06f9ff55-3466-4b81-9b8a-d82caeb440da)
 ![image](https://github.com/user-attachments/assets/a6bd557a-47da-4b12-a94f-9dbb018d39cb)
 ![image](https://github.com/user-attachments/assets/e5b86b49-862e-469b-9f9f-4bbdeb2c0acf)
 ![image](https://github.com/user-attachments/assets/659dddb8-7faf-434b-bd03-94ac09ecaeec)
