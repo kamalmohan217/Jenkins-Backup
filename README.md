@@ -109,7 +109,7 @@ Now for Restoration of backup follow the steps as written below.
 
 Go to **Manage Jenkins** > **Periodic Backup Manager** and restore as shown in the screenshot attached below.
 
-![image](https://github.com/user-attachments/assets/4596a74f-1050-4b2b-b626-7a92535f00b4)
+![image](https://github.com/user-attachments/assets/aad781fe-0caf-475a-8d5b-4ca47d00a28c)
 
 Checked the log and got verified that restoration has benn done.
 
