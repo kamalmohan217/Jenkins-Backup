@@ -136,7 +136,7 @@ Before proceeding further my first Aim is to create the temporary directory /var
 
 Configuration for Periodic Backup Manager is as shown in the screenshot attached below.
 
-![image](https://github.com/user-attachments/assets/0341249a-331a-4d6a-bb5d-ed12ae825e88)
+![image](https://github.com/user-attachments/assets/fc6fd8c5-2e7f-4263-a5ac-062a6ed87f32)
 ![image](https://github.com/user-attachments/assets/7a9ae135-a25c-4a5a-9acb-6d34c817b0f5)
 ![image](https://github.com/user-attachments/assets/ed55191b-30ba-443c-8d83-ea7498b30dee)
 
