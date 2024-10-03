@@ -78,7 +78,7 @@ For periodic backup, installation of Jenkins plugin Periodic Backup has been don
 
 create a temporary directory and change its ownership as shown in the screenshot attached below.
 
-![image](https://github.com/user-attachments/assets/57f1b20b-f044-4987-b753-0a61a7876261)
+![image](https://github.com/user-attachments/assets/83ba56e0-6051-4bf6-9801-9b2624814ba3)
 
 Create an Amazon S3 Bucket as shown in the screenshot attached below.
 
@@ -126,3 +126,38 @@ Install the plugin for periodic backup as shown in the screenshot attached below
 To configure periodic backup in Jenkins do the configuration in Jenkins after installation of periodic backup plugin as shown in the screenshot attached below.
 
 ![image](https://github.com/user-attachments/assets/fe126d2a-9405-44a8-a0d9-1924c15a6197)
+
+Before proceeding further my first Aim is to create the temporary directory /var/lib/jenkins/tmp, backup directory /opt/jenkins-backup and change it's ownership as shown in the screenshot attached below.
+
+![image](https://github.com/user-attachments/assets/47e883af-a706-4ace-96ad-7b12d8a7aa47)
+
+Configuration for Periodic Backup Manager is as shown in the screenshot attached below.
+
+![image](https://github.com/user-attachments/assets/0341249a-331a-4d6a-bb5d-ed12ae825e88)
+![image](https://github.com/user-attachments/assets/7a9ae135-a25c-4a5a-9acb-6d34c817b0f5)
+![image](https://github.com/user-attachments/assets/ed55191b-30ba-443c-8d83-ea7498b30dee)
+
+Periodic backup will be taken daily at 06:05 AM daily and only 30 days backup will be stored locally, if a new backup tar file will be generated then oldest backup will be discarded.
+
+Backup has been created at 06:05 AM UTC as shown in the screenshot attached below.
+
+![image](https://github.com/user-attachments/assets/f7d973f8-73a3-4814-b397-943be411abde)
+![image](https://github.com/user-attachments/assets/423e20a7-cdd5-43c4-8a55-1ee3826e9d48)
+
+Befor running the Backup there was one Jenkins Job with the name test-1 and two builds as shown in the screenshot attached below.
+
+![image](https://github.com/user-attachments/assets/efffb36e-4fe0-4dc1-a7fb-374388343b30)
+![image](https://github.com/user-attachments/assets/85294adc-c7f4-418b-9c6a-32c3566fd2d5)
+
+Now I deleted the Jenkins Job with the name test-1 as shown in the screenshot attached below.
+
+![image](https://github.com/user-attachments/assets/281ebae2-0fe9-4767-baea-7a5eb120d83c)
+
+And Restore from the backup as shown from the screenshot attached below.
+
+![image](https://github.com/user-attachments/assets/d72a718d-1ecf-4786-8fb4-5b78eeea6ff8)
+![image](https://github.com/user-attachments/assets/e726e9a6-cb61-42f8-939b-457f78d82ea1)
+
+The backup has been done as confirmed from the below screenshot.
+
+![image](https://github.com/user-attachments/assets/4d4dd849-84fb-4799-ab3b-98be341efb87)
