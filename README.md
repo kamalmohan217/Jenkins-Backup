@@ -158,7 +158,7 @@ Now I deleted the Jenkins Job with the name test-1 as shown in the screenshot at
 
 And Restore from the backup as shown from the screenshot attached below.
 
-![image](https://github.com/user-attachments/assets/d72a718d-1ecf-4786-8fb4-5b78eeea6ff8)
+![image](https://github.com/user-attachments/assets/b1c98676-c3e6-4386-8584-60d11cc36059)
 ![image](https://github.com/user-attachments/assets/e726e9a6-cb61-42f8-939b-457f78d82ea1)
 
 The backup has been done as confirmed from the below screenshot.
