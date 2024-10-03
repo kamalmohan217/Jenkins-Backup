@@ -12,13 +12,12 @@ I have installed the jenkins plugin for ThinBackup as shown in the screenshot at
 
 Created backup direcitory and changed the owner and group for the directory as shown in the screenshot attached below.
 
-![image](https://github.com/user-attachments/assets/784be28f-e1ed-4847-9beb-e176c774c131)
-![image](https://github.com/user-attachments/assets/0773dbdd-7029-4045-aa5b-d615995327d0)
-![image](https://github.com/user-attachments/assets/a203a77a-cc4b-427a-b54c-923be4deefdf)
+![image](https://github.com/user-attachments/assets/28141e14-a6a0-466a-b5c7-31ee8c3a587d)
+![image](https://github.com/user-attachments/assets/5b6f47e0-c0fa-4bdc-a2f1-8867edda0072)
 
 Go to **Manage Jenkins** > **System**. Then go to ThinBackup Configuration as shown in the screenshot attached below.
 
-![image](https://github.com/user-attachments/assets/c80e55e5-04e8-4544-9518-92f99717f6e9)
+![image](https://github.com/user-attachments/assets/63aa7c2c-3e51-4a20-8d9b-26ff3d5a7fc7)
 ![image](https://github.com/user-attachments/assets/b46eee63-90e9-4d67-9b4c-44ea0009f881)
 
 In backup schedule for Full and differential backup cron job I used 9:10 AM UTC daily for backup. For the first time if no Full backup present then it will create it and from the next time onwards it will create the differential backup. In configuration I checked the option for **cleanup differential backups** and **Move old backups to zip files.** Which denotes the differential backup is removed and it will be removed before zipping happens when hence zip files contain no differential backup.
